@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background  : linear-gradient("#F9FAFF");
+}
+.container{
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header__wrapper{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__list{
+    align-items: center;
+    display: flex;
+    gap: 57px;
+    list-style: none;
+}
+.header__link{
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #363853;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.header__btn{
+    text-align: center;
+    width: 120px;
+    background-color: #FF7A50;
+    border-radius: 5px;
+    padding: 14px 0;
+    font-family: "Rubik";
+    font-weight: 400;
+    line-height: 21px;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: #FF6838;
+    font-size: 22px;
+}
+.header__btn:hover{
+    background-color: aqua;
+    color: black;
+}
+.hero{
+    padding-top: 51px;
+}
+.hero__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.Hero__title{
+    font-family:"Rubik";
+    font-weight: 500;
+    font-size: 66px;
+    line-height: 78px;
+    color: #363853;
+    width: 530px;
+    
+
+}
+.f__wpp{
+margin-top: 213px;
+}
+.text__hero{
+   
+    color: #FF7A50;
+}
+.hero__text{
+    margin-top: 23px;
+    font-family: "Rubik";
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.hero__btn{
+    color: #fff;
+    border: none;
+    margin-top: 57px;
+    width: 163px;
+    background-color: #FF7A50;
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 0;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+.wrapper{
+align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.div{
+  margin: 0 auto;
+    padding-top: 238px;
+}
+.xaa{
+    color: #FF7A50;
+}
+.h2{
+    margin-bottom: 95px;
+    width: 384px;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    color: #363853;
+}
+.text{
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    margin-bottom: 100px;
+}
+.btn{
+    color: white;
+    height: 58px;
+    width: 176px;
+    text-align: center;
+    background-color: #FF7A50;
+    border: none;
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 30px;
+}
+.ww{
+    padding-top: 44px;
+}
+.ss{
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    text-align: center;
+}
+.hero__list{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 43px;
+    padding-top: 50px;
+    list-style: none;
+}
+.h3{
+ font-family: "Rubik";
+ font-weight: 400;
+ font-size: 24px;
+ line-height: 30px;
+ margin-top: 22px;
+}
+.va{
+    width: 361px;
+    background-color: #fff;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+    gap: 10px;
+}
+.jaja::before{
+    background-image: url("./images/timer\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 22px;
+    height: 22px;
+content: "";
+display: block;
+}
+.jaja{
+        font-family: "Rubik";
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
+  
+}
+.xa{
+   width: 79px;
+   height: 33px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #FF6838;
+   border: none;
+  border-radius: 20px;
+  border-bottom-right-radius: 1px;
+}
+
+.we{
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    color: #363853;
+}
+.re{
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+    width: 538px;
+}
+.wrape{
+    display: flex;
+    justify-content: space-between;
+}
+.qe{
+    margin-top: 162px;
+}
+.dav{
+    margin-top: 281px;
+}
+footer{
+    padding-top: 110px;
+}
+.footer__wrapeer{
+    margin-bottom: 179px;
+    background-color: #FF7A50;
+    border-radius: 20px;
+    padding-top: 59px;
+    padding-bottom: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+
+}
+.footer__ttile{
+    color: #fff;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+input{
+width: 838px;
+height: 78px;
+border-radius: 70px;
+border: 1px solid #fff;
+}
+::placeholder{
+    font-family: "Rubik";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+   text-align: center;
+
+}
+.dir{
+    display: flex;  border-radius: 70px; overflow: hidden;
+    background-color: #fff;
+}
+.te{
+    border-right: none;
+    width: 192px;
+    padding: 15px 0;
+    background-color: #FF7A50;
+    border: 1px solid #000;
+    font-family: "Rubik";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border-radius: 70px;
+    transition: 0.5s ease-in-out;
+}
+.te:hover{
+    background-color: #000;
+
+}
+
